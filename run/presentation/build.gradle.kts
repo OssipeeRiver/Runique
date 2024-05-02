@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.jetbrainsKotlinAndroid)
 }
 
 android {
@@ -38,6 +38,6 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.timber)
 
-    implementation(projects.core.domain)
-    implementation(projects.run.domain)
+//    implementation(projects.core.domain)
+//    implementation(projects.run.domain)
 }

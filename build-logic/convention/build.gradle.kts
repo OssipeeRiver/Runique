@@ -1,9 +1,9 @@
 plugins {
-    `kotlin-dsl`
+    id("java-library")
+    alias(libs.plugins.org.jetbrains.kotlin.jvm)
 }
 
-group = "com.ossipeeriver.runique.buildlogic"
-
-dependencies {
-    compileOnly(libs.android.gradlePlugin)
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }

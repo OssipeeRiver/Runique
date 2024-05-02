@@ -1,13 +1,7 @@
 pluginManagement {
     includeBuild("build-logic")
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -21,9 +15,7 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Runique"
-
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-
 include(":app")
 include(":auth:data")
 include(":auth:domain")
@@ -38,3 +30,4 @@ include(":run:domain")
 include(":run:presentation")
 include(":run:location")
 include(":run:network")
+//include(":build-logic:convention")
