@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrainsKotlinAndroid)
-    // id("runique.android.application")
+    alias(libs.plugins.runique.android.application)
 }
 
 android {

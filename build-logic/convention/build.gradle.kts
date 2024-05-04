@@ -16,7 +16,7 @@ gradlePlugin {
    plugins {
       register("androidApplication") {
          id = "runique.android.application"
-         implementationClass = "androidApplicationConventionPlugin"
+         implementationClass = "AndroidApplicationConventionPlugin"
       }
    }
 }
