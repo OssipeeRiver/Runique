@@ -1,7 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
-    alias(libs.plugins.runique.android.application)
+    alias(libs.plugins.runique.android.application.compose)
+    alias(libs.plugins.mapsplatform.secrets.plugin)
+
 }
 
 android {
@@ -36,12 +36,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
-    }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
     }
     packaging {
         resources {
