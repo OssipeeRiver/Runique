@@ -35,4 +35,6 @@ android {
 dependencies {
     implementation(projects.auth.domain)
     implementation(projects.core.domain)
+    implementation(libs.androidx.monitor)
+    implementation(libs.androidx.junit.ktx)
 }
