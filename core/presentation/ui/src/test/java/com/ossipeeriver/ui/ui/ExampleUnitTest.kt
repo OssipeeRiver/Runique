@@ -1,4 +1,4 @@
-package com.ossipeeriver.presentation.ui
+package com.ossipeeriver.ui.ui
 
 import org.junit.Test
 
