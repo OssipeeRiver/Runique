@@ -3,6 +3,9 @@ A Philipp Lackner Android coding project designed to teach essential Android dev
 Authentication services, Dynamic Features, Wear OS, Offline-First products. If you are curious about Philip's courses, they
 can be found on his website at this link: https://pl-coding.com/
 
+![image](https://github.com/OssipeeRiver/Runique/assets/94566958/3c7869c8-4d0d-48a4-ae03-c594ee360561)
+
+
 - Project planning & architecture fundamentals
 - Gradle, build-logic, version catalogs, convention plugins
 - Reactive programming with coroutines & Flows
