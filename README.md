@@ -1,6 +1,6 @@
 # Runique
 A Philipp Lackner Android coding project designed to teach essential Android development concepts. This includes Multi-Module Architecture, Architecture Theory, Gradle configuration, Google Maps SDK, Jetpack Compose,
-Authentication services, Dynamic Features, Wear OS, Offline-First products. If you are curious about Philip's courses, they
+Authentication services, Dynamic Features, Wear OS, and Offline-First products. If you are curious about Philip's courses, they
 can be found on his website at this link: https://pl-coding.com/
 
 - Project planning & architecture fundamentals
